@@ -7,3 +7,5 @@ Here, I have developed an AI powered trading bot which will use trading signals 
 then again ask for more data for trading from the stock_data.csv. It will store the data in a hierarchical data format file (HDF5) for the current week and the last week.
 The infinite loop (threaded for concurrent systems) is responsible for gathering data once a day, and determining whether or not we have reached a weekly split yet. Upon reaching 
 a weekly split, the variables are updated and we consult our AI on whether or not to buy or to sell.
+
+I have deployed/hosted the bot on the Google Cloud Platform to mitigate the complications of running it 24/7 onto the computer systems.
