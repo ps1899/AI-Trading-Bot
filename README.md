@@ -10,4 +10,4 @@ a weekly split, the variables are updated and we consult our AI on whether or no
 
 I have deployed/hosted the bot on the **Google Cloud Platform** to mitigate the complications of running it 24/7 onto the computer systems.
 
-P.S: Please don't try to use the algorithm for live trading, not liable for any loss associated with this algorithm.
+**P.S: Please don't try to use the algorithm for live trading, not liable for any loss associated with this algorithm.**
