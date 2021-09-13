@@ -8,4 +8,6 @@ then again ask for more data for trading from the stock_data.csv. It will store 
 The infinite loop (threaded for concurrent systems) is responsible for gathering data once a day, and determining whether or not we have reached a weekly split yet. Upon reaching 
 a weekly split, the variables are updated and we consult our AI on whether or not to buy or to sell.
 
-I have deployed/hosted the bot on the Google Cloud Platform to mitigate the complications of running it 24/7 onto the computer systems.
+I have deployed/hosted the bot on the **Google Cloud Platform** to mitigate the complications of running it 24/7 onto the computer systems.
+
+P.S: Please don't try to use the algorithm for live trading, not liable for any loss associated with this algorithm.
