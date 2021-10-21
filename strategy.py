@@ -18,7 +18,7 @@ class AlpacaPaperSocket(REST):
     def __init__(self):
         super().__init__(
             key_id = 'PKARJ9A9ZP1H8K5A58TF',
-            secret_key = '68Bl3zDxWDGGT1l30yHXvj68qNdwtEEe6nRAxAzW',
+            secret_key = '68Bl3zDxWDGGT1l30y*******NdwtEEe6nRAxAzW',
             base_url = 'https://paper-api.alpaca.markets'
         )
 
