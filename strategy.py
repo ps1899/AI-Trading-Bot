@@ -22,7 +22,7 @@ class AlpacaPaperSocket(REST):
             base_url = 'https://paper-api.alpaca.markets'
         )
 
-# TradingSystem class with methods declared as abstract, so that we can change our implemetations according to the need of the system computations 
+# TradingSystem class with methods declared as abstract, so that we can change our implementations according to the need of the system computations 
 class TradingSystem(abc.ABC):
     def __init__(self, api, symbol, time_frame, system_id, system_label):
         self.api = api
